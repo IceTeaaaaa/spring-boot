@@ -200,5 +200,5 @@ class JavaConventions {
 		project.getPlugins().withType(OptionalDependenciesPlugin.class, (optionalDependencies) -> configurations
 				.getByName(OptionalDependenciesPlugin.OPTIONAL_CONFIGURATION_NAME).extendsFrom(dependencyManagement));
 	}
-
+	// add comment
 }
